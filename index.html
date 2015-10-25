@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Portfolio Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="row">
+        <div class="col-md-4">
+          <img class="pull-left logo" src="images/udacity-logo.jpg" alt="Udacity Logo">
+        </div>
+        <div class="col-md-8 header-text">
+          <h2 class="name">Philomath Ingeniare</h2>
+          <h3 class="desc">Software Engineer</h3>
+        </div>
+      </div>
+    </header>
+    <hr>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Philoniare</a>
+        </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- main image -->
+    <div class="hero">
+    <img class="imgResponsive img-responsive" srcset="images/hero-image-small.jpg 500w, images/hero-image-medium.jpg 1000w" src="images/hero-image.jpg" alt="ones and zeros">
+
+    </div>
+    <section class="projects">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="featured-title">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row project-thumbnails">
+          <div class="col-md-4">
+            <div class="project-desc">
+              <img class="project-image img-responsive" srcset="images/projects/ios_app.png 500w, images/projects/ios_app.png 1000w" class="project-image" src="images/projects/ios_app.png" alt="ios app image">
+              <h2 class="project-title">
+                iOS App VoiceShifter
+              </h2>
+              <span class="gh-link">
+                <a href="https://github.com/philoniare/VoiceShifter">https://github.com/philoniare/VoiceShifter</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-desc">
+              <img class="project-image img-responsive" srcset="images/projects/visualization_small.png 500w, images/projects/visualization_medium.png 1000w" class="project-image" src="images/projects/visualization.png" alt="earthquake visualization image">
+              <h2 class="project-title">
+                Visualization in Java
+              </h2>
+              <span class="gh-link">
+                <a href="https://github.com/philoniare/WorkingWithJavaLibs">https://github.com/philoniare/WorkingWithJavaLibs</a>
+              </span>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-desc">
+              <img class="project-image img-responsive" srcset="images/projects/laravel_small.png 500w, images/projects/laravel_medium.png 1000w" src="images/projects/laravel.png" alt="todo application in laravel">
+              <h2 class="project-title">
+                Todo App in Laravel
+              </h2>
+              <span class="gh-link center">
+                <a href="https://github.com/philoniare/todoApp">https://github.com/philoniare/todoApp</a>
+              </span>
+            </div>
+          </div>
+      </div>
+
+    </section>
+    <footer>
+      <p>
+        Email Philomath Ingeniare: philoniare@gmail.com
+      </p>
+    </footer>
+  </div>
+</body>
+</html>

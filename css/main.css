@@ -1,0 +1,41 @@
+.header {
+  margin-top: 20px;
+}
+
+footer {
+  margin-top: 3%;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.imgResponsive {
+  width: 100%;
+  max-height: 400px;
+}
+
+.header-text {
+  text-align: right;
+  font-family: "Rajdhani", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.project-desc {
+  text-align: center;
+}
+
+#featured-title {
+  color: grey;
+  margin: 3% 0 2% 3%;
+}
+
+.project-image {
+  max-height: 240px;
+  text-align: center;
+}
